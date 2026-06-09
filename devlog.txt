@@ -1,0 +1,24 @@
+﻿
+> blogs-app@0.1.0 dev
+> next dev
+
+node.exe : ΓÜá Port 3000 is in use by process 10136, using available port 3001 instead.
+At C:\Users\ESSIE\AppData\Roaming\npm\npm.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/npm/bin/npm-cli.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ΓÜá Port 3000 i...t 3001 instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Γû▓ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.100.3:3001
+Γ£ô Ready in 840ms
+Γ¿» Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          10136
+- Dir:          C:\Users\ESSIE\Desktop\blogs-app
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 10136 /F to stop it.
+[?25h
